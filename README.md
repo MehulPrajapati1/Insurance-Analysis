@@ -1,81 +1,52 @@
-# Insurance-Analysis
-🚨 New Power BI Project Alert – Insurance Analytics Dashboard! I'm excited to share my latest data visualization project where I analyzed key metrics for an insurance company using real-world KPIs. 
-# 📊 Insurance Claims Analysis Dashboard | Power BI
+# Insurance Analytics Dashboard — Power BI
 
-This project presents a comprehensive **Insurance Analysis Dashboard** developed using Power BI to help stakeholders at *PRISM Insurance Pvt. Ltd.* understand customer behavior, policy distribution, claim patterns, and financial performance.
+## Business Problem
+PRISM Insurance Pvt. Ltd. needed a single view of their policy portfolio,
+claim performance, and customer demographics to make faster, data-driven
+operational decisions.
 
----
+## Dashboard Preview
+![Insurance Dashboard](Insurance%20analaysis.pdf)
+> Open the PDF above to view the full dashboard
 
-## 🧾 Objective
+## Key Metrics at a Glance
+| Metric | Value |
+|---|---|
+| Total Premium Collected | ₹5.98M |
+| Total Coverage Amount | ₹600.55M |
+| Total Claim Amount | ₹16.91M |
 
-To provide actionable insights into:
-- Policy distribution by type and status
-- Claim trends by customer demographics
-- Financial metrics like premium, coverage, and claim amounts
-- Operational KPIs such as claim settlement efficiency
+## Key Insights
+- **Auto and Health** policies contribute the highest share of premium income
+- **Claim settlement rate** reveals operational bottleneck in pending approvals
+- **Adult age group (31–60)** accounts for the largest claim burden
+- Gender distribution is roughly equal — no significant gender bias in claims
+- **Pending claims** in Life and Travel segments need priority attention
 
----
+## Business Questions Answered
+1. Which policy type generates the most premium revenue?
+2. How efficient is the company at settling claims?
+3. Which age group drives the highest claim amounts?
+4. What is the gender breakdown of policyholders?
+5. How do claim approvals vary across policy types?
 
-## 🔍 Key Features
+## Tools & Techniques
+| Tool | Usage |
+|---|---|
+| Power BI Desktop | Dashboard, KPI cards, donut and bar charts |
+| DAX | Claim rate, settlement % measures |
+| Power Query | Data transformation |
+| Excel / CSV | Source data — `InsuranceData.csv` |
 
-### 📁 Data Overview
-- **Total Premium Collected**: ₹5.98M  
-- **Total Coverage Amount**: ₹600.55M  
-- **Total Claim Amount**: ₹16.91M  
+## Files in this Repo
+- `InsuranceData.csv` — raw dataset
+- `Insurance analysis.pbix` — Power BI source file
+- `Insurance analysis.pdf` — dashboard export
 
-### 📊 Visual Insights
-- **Premium by Policy Type**: Auto, Health, Life, Travel, Home  
-- **Claim Status Distribution**: Settled, Rejected, Pending  
-- **Active vs Inactive Policies**  
-- **Claim Amount by Age Group**: Young, Adult, Elder  
-- **Claim Summary Table**: Status-wise totals across policy types  
-- **Gender Breakdown of Customers**
-
----
-
-## 🧠 Business Questions Answered
-
-- Which policy type contributes the most to the premium income?
-- How effective is the company in settling claims?
-- What is the age-wise claim burden?
-- What’s the gender distribution of policyholders?
-- How does claim approval vary by policy type?
-
----
-
-## 🛠️ Tools & Technologies Used
-
-- **Power BI Desktop** – for report building and visualization  
-- **DAX** – for creating calculated measures  
-- **Power Query Editor** – for data transformation  
-- **Card, Bar, Donut, Table, and Slicer visuals** – for clean and interactive reporting
+## Author
+**Mehul Prajapati** — BTech CSE, Dr. Ram Manohar Lohia Awadh University (2026)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mehulprajapati-)
+[![Portfolio](https://img.shields.io/badge/Portfolio-238636?style=flat&logo=googlechrome&logoColor=white)](https://mehulprajapati.lovable.app)
 
 ---
-
-## 📸 Dashboard Preview
-
-> *(Insert screenshots from the dashboard here if hosted in GitHub repo)*
-
----
-
-## 🚀 Outcomes
-
-This dashboard allows insurance decision-makers to:
-- Monitor claims and performance across policy types
-- Improve customer service by analyzing pending/rejected claims
-- Understand demographic trends to tailor insurance products better
-
----
-
-## 👨‍💻 Author
-
-**Your Name**  
-Aspiring Data Analyst | B.Tech CSE | Power BI Enthusiast  
-[LinkedIn](https://www.linkedin.com/in/your-link) | [Email](mailto:your.email@example.com)
-
----
-
-## 🏷️ Tags
-
-`#PowerBI` `#InsuranceAnalytics` `#DataVisualization` `#BusinessIntelligence` `#DAX` `#ClaimsAnalysis` `#DataAnalyticsProject`
-
+`Power BI` `DAX` `Insurance Analytics` `KPI Dashboard` `Claims Analysis`
